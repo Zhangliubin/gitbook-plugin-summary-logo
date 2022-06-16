@@ -1,0 +1,49 @@
+{
+  "name": "gitbook-plugin-summary-logo",
+  "version": "0.0.3",
+  "description": "在 Summary 顶部添加带有跳转链接的 logo",
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "insert-logo",
+    "logo",
+    "link"
+  ],
+  "main": "index.js",
+  "author": {
+    "name": "suranyi",
+    "email": "suranyi.sysu@gmail.com"
+  },
+  "engines": {
+    "gitbook": ">=2.0.0"
+  },
+  "gitbook": {
+    "properties": {
+      "logo": {
+        "type": "string",
+        "default": "assert/department_logo.png",
+        "title": "Logo URL"
+      },
+      "link": {
+        "type": "string",
+        "default": "javascript:;",
+        "title": "websit link"
+      },
+      "target": {
+        "type": "string",
+        "default": "_blank",
+        "title": "link mode"
+      },
+      "style": {
+        "type": "string",
+        "default": "background: none;",
+        "title": "Custom CSS"
+      }
+    }
+  },
+  "homepage": "https://github.com/Zhangliubin/gitbook-plugin-summary-logo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zhangliubin/gitbook-plugin-summary-logo.git"
+  }
+}
